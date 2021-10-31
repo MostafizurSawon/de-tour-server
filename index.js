@@ -62,22 +62,6 @@ client.connect((err) => {
       });
   });
 
-  //update product
-  // app.put("/services/:id", async (req, res) => {
-  //   const id = req.params.id;
-  //   const updatedName = req.body;
-  //   const filter = { _id: ObjectId(id) };
-
-  //   servicesCollection
-  //     .updateOne(filter, {
-  //       $set: {
-  //         name: updatedName.name,
-  //       },
-  //     })
-  //     .then((result) => {
-  //       res.send(result);
-  //     });
-  // });
 
   //add order in database
 
